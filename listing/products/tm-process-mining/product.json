@@ -1,0 +1,46 @@
+{
+  "name": "Tm Process Mining",
+  "pitch": "Build a canonical process model at reload and explore it with nine Qlik Cloud extensions.",
+  "question": "Which Activities and Transitions shape each Process?",
+  "useWhen": "Compare Cases, Variants, and Transitions in a Process.",
+  "purposes": [
+    "process"
+  ],
+  "features": [
+    "Map Activities and Transitions with Process Map.",
+    "Compare Variant sequences with Variant Braids.",
+    "Group Cases into Lines by value or Object type with Tube Map.",
+    "Trace Events across Cases with Case Timeline and Journey Stripes.",
+    "Compare two Populations with Lifecycle and Difference Map.",
+    "Inspect Rework and Transition frequency with Rework Map and Process Matrix."
+  ],
+  "shortlinks": [
+    "tmprocessmining"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Activities appear as nodes connected by directed Transitions in a Process Map."
+  },
+  "screenshots": [
+    {
+      "file": "images/process-map.png",
+      "alt": "Activities appear as nodes; directed Transitions show Case counts.",
+      "caption": "Activities, Transitions, and Case counts in a Process Map."
+    },
+    {
+      "file": "images/variant-braids.png",
+      "alt": "Five colored Variant paths run through Activities; the legend lists Case counts.",
+      "caption": "Five Variant paths with Case counts and percentages."
+    },
+    {
+      "file": "images/tube-map.png",
+      "alt": "Four colored Lines pass through Receive, Assess, Plan, Execute, and Close.",
+      "caption": "The legend names each Line and shows Cases per Transition."
+    },
+    {
+      "file": "images/case-timeline.png",
+      "alt": "Five Cases appear as rows with Event points and elapsed times.",
+      "caption": "Five Case rows with Event points and durations."
+    }
+  ]
+}
