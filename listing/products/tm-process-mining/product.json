@@ -12,7 +12,9 @@
     "Follow Cases line by line.",
     "Spot rework and loops quickly.",
     "Compare two groups of Cases.",
-    "Read each Case as a timeline."
+    "Read each Case as a timeline.",
+    "Start from a template app with your own data.",
+    "Learn from two ready demo apps, Claims and Freight."
   ],
   "shortlinks": [
     "tmprocessmining"
@@ -71,6 +73,21 @@
       "file": "images/app-routes.png",
       "alt": "Demo App Routes sheet: three colored Lines, one for each Priority, run through the order process.",
       "caption": "In the Demo App: Cases grouped into Lines by Priority, meeting at shared steps."
+    },
+    {
+      "file": "images/app-claims-overview.png",
+      "alt": "Claims demo app overview: claim, median settlement and service target KPIs, claims per month and service target results by claim type.",
+      "caption": "In the Claims demo app: where do claims lose time? Start with volume and service targets."
+    },
+    {
+      "file": "images/app-freight-routes.png",
+      "alt": "Freight demo app Routes sheet: lines for shipments, containers, truck trips and customs entries meeting at shared Activities.",
+      "caption": "In the Freight demo app: follow the goods across Shipments, Containers and Customs entries."
+    },
+    {
+      "file": "images/app-template-overview.png",
+      "alt": "Template app overview sheet: Case, Event and Activity counts and process measures for an example IT incident data set.",
+      "caption": "In the template app: the same sheets work with your own data after one script edit."
     }
   ],
   "questions": [
