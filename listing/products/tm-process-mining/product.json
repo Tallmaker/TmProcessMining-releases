@@ -1,0 +1,138 @@
+{
+  "name": "Tm Process Mining",
+  "pitch": "See how work really flows through a process, and where it stalls, loops or splits.",
+  "question": "Where do our Cases lose time, loop back or take a different route?",
+  "useWhen": "Compare Cases, Variants, and Transitions in a Process.",
+  "purposes": [
+    "process"
+  ],
+  "features": [
+    "Map every Activity and Transition on one picture.",
+    "Compare Variants side by side.",
+    "Follow Cases line by line.",
+    "Spot rework and loops quickly.",
+    "Compare two groups of Cases.",
+    "Read each Case as a timeline."
+  ],
+  "shortlinks": [
+    "tmprocessmining"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Five colored Lines run through an order process like routes on a transit map, with Case counts per Line."
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-difference.png",
+      "alt": "Two groups of Cases drawn on one process map, with the routes only one group takes marked.",
+      "caption": "Two groups of Cases on one map: see which routes only one group takes."
+    },
+    {
+      "file": "images/gallery-lifecycle.png",
+      "alt": "Each Activity as a row showing where in a Case's lifecycle it first appears and repeats.",
+      "caption": "When each step usually happens in a Case, and where work repeats."
+    },
+    {
+      "file": "images/app-overview.png",
+      "alt": "Demo App overview sheet: Case, Event and Variant counts, rework rate and Activity frequency.",
+      "caption": "In the Demo App: the Overview sheet shows where to look first."
+    },
+    {
+      "file": "images/app-cases.png",
+      "alt": "Demo App Cases sheet: Journey Stripes, Case Timeline and Lifecycle beside a Case table and filters.",
+      "caption": "In the Demo App: three Extensions on one sheet show what makes up each Case."
+    },
+    {
+      "file": "images/app-bottlenecks.png",
+      "alt": "Demo App Bottlenecks sheet: a Process Map coloured by Transition duration beside the slowest Transitions.",
+      "caption": "In the Demo App: a Process Map and charts that answer where Cases slow down."
+    },
+    {
+      "file": "images/app-model.png",
+      "alt": "Data model of the Demo App: Events, Cases, Transitions and Variants joined by CaseID and VariantID.",
+      "caption": "Data model: Events, Cases and Transitions join on CaseID; Variants on VariantID."
+    },
+    {
+      "file": "images/app-variant-braids.png",
+      "alt": "Demo App Variant Braids sheet: five Variant strands with a key, beside Process, Priority and Resource filters.",
+      "caption": "In the Demo App: five Variants as strands, so common and rare routes stand out."
+    },
+    {
+      "file": "images/app-rework-map.png",
+      "alt": "Demo App Rework sheet: eleven named Activities and one arc that returns from Request Information to Credit Check.",
+      "caption": "In the Demo App: an arc marks where Cases return to an earlier step."
+    },
+    {
+      "file": "images/app-transitions-matrix.png",
+      "alt": "Demo App matrix sheet: a from-and-to grid of Activities with Case counts and marks for rare and backward steps.",
+      "caption": "In the Demo App: every step-to-step Transition in one grid, with rare ones marked."
+    },
+    {
+      "file": "images/app-routes.png",
+      "alt": "Demo App Routes sheet: three colored Lines, one for each Priority, run through the order process.",
+      "caption": "In the Demo App: Cases grouped into Lines by Priority, meeting at shared steps."
+    }
+  ],
+  "questions": [
+    "Which routes do most Cases actually take?",
+    "Where does work go back and repeat?",
+    "How do two groups of Cases differ?"
+  ],
+  "audience": "Process owners and BI leads who want process insight inside Qlik Cloud apps.",
+  "featureStrips": [
+    {
+      "heading": "See the real process on one map",
+      "text": "Activities and the Transitions between them show how many Cases take each route.",
+      "image": "images/process-map.png",
+      "alt": "Demo App Process sheet: a Process Map of the order process above Activity frequency and Transition duration charts."
+    },
+    {
+      "heading": "Compare the ways work gets done",
+      "text": "Each Variant is a colored path, so the common routes and the odd ones stand out.",
+      "image": "images/variant-braids.png",
+      "alt": "Five colored Variant paths run through the process, with a legend of Case counts."
+    },
+    {
+      "heading": "Follow Cases line by line",
+      "text": "Cases group into named Lines, like routes on a transit map, with counts at every Transition.",
+      "image": "images/tube-map.png",
+      "alt": "Colored Lines run through the process like routes on a transit map."
+    },
+    {
+      "heading": "Trace one Case from start to end",
+      "text": "Every Case is a row of Events over time, so slow Cases and long waits show at once.",
+      "image": "images/case-timeline.png",
+      "alt": "Five Cases as rows of Events with the time between them."
+    },
+    {
+      "heading": "Read many Cases at a glance",
+      "text": "Each Case becomes a row of colored stripes, so patterns across many Cases are visible.",
+      "image": "images/journey-stripes.png",
+      "alt": "Twenty Cases as rows of colored Activity stripes, longest first."
+    },
+    {
+      "heading": "Know when each step usually happens",
+      "text": "Each Activity shows where in a Case's life it first appears and where it repeats.",
+      "image": "images/lifecycle.png",
+      "alt": "Each Activity as a row showing where in the Case lifecycle it occurs."
+    },
+    {
+      "heading": "Compare two groups of Cases",
+      "text": "Put two Populations side by side and see which routes only one of them takes.",
+      "image": "images/difference-map.png",
+      "alt": "Two Populations drawn on one map, with routes only one group takes marked."
+    },
+    {
+      "heading": "Find where work goes back",
+      "text": "Backward and repeated Transitions stand out, so loops and rework are easy to find.",
+      "image": "images/rework-map.png",
+      "alt": "A map where a thick arc marks four Cases going back to Credit Check."
+    },
+    {
+      "heading": "Check every Transition in a grid",
+      "text": "A grid of from and to Activities shows the volume of each Transition, and the rare ones.",
+      "image": "images/process-matrix.png",
+      "alt": "A from-and-to grid of Activities with the Case count in each Transition."
+    }
+  ]
+}
