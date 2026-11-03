@@ -8,6 +8,10 @@ Each GitHub release in this repository holds these files:
 
 - `TmProcessMining-script-<version>.zip`: the load-script framework.
 - `tm-pm-<name>-<version>.zip`: one archive for each of the nine visualization extensions.
+- `tm-process-mining-<version>-demo-app.qvf`: the showcase demo app for all nine extensions.
+- `tm-process-mining-<version>-demos-and-templates.zip`: template v4, template v5, the Claims demo and the Freight demo as `.qvf` files, with a README of their SHA-256.
+- `tm-process-mining-<version>-example-data.zip`: the example data for the templates and the demo apps.
+- `tm-process-mining-<version>-manual.pdf` and `.html`: the user manual.
 - A `.sha256` file for each archive.
 
 Download the files from the [Releases](../../releases) page.
