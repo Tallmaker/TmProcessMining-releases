@@ -9,12 +9,10 @@
   "features": [
     "Map every Activity and Transition on one picture.",
     "Compare Variants side by side.",
-    "Follow Cases line by line.",
+    "Follow Cases line by line and read each as a timeline.",
     "Spot rework and loops quickly.",
     "Compare two groups of Cases.",
-    "Read each Case as a timeline.",
-    "Start from a template app with your own data.",
-    "Learn from two ready demo apps, Claims and Freight."
+    "Start from a template app with two ready demo apps."
   ],
   "shortlinks": [
     "tmprocessmining"
@@ -76,18 +74,18 @@
     },
     {
       "file": "images/app-claims-overview.png",
-      "alt": "Claims demo app overview: claim, median settlement and service target KPIs, claims per month and service target results by claim type.",
-      "caption": "In the Claims demo app: where do claims lose time? Start with volume and service targets."
+      "alt": "Claims demo app overview: claim, median settlement and service target KPIs, claims per month, results by claim type.",
+      "caption": "In the Claims demo app: where do claims lose time? Start with volume and targets."
     },
     {
       "file": "images/app-freight-routes.png",
       "alt": "Freight demo app Routes sheet: lines for shipments, containers, truck trips and customs entries meeting at shared Activities.",
-      "caption": "In the Freight demo app: follow the goods across Shipments, Containers and Customs entries."
+      "caption": "In the Freight demo app: follow goods across Shipments, Containers and Customs."
     },
     {
       "file": "images/app-template-overview.png",
       "alt": "Template app overview sheet: Case, Event and Activity counts and process measures for an example IT incident data set.",
-      "caption": "In the template app: the same sheets work with your own data after one script edit."
+      "caption": "In the template app: the same sheets work with your own data."
     }
   ],
   "questions": [
