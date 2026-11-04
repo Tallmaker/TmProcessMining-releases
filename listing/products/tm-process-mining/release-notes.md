@@ -1,7 +1,6 @@
 ## New
 
-- Both template apps have a Report sheet of native objects. It shows Cases, Variants, Transitions and Case duration, and it exports to PDF, Excel and scheduled reports.
-- The manual explains that Qlik Cloud reports do not include custom visualizations.
+None in this release.
 
 ## Changed
 
@@ -9,9 +8,8 @@ None in this release.
 
 ## Fixed
 
-- Process Matrix and Tube Map read correctly with assistive technology.
-- The Difference Map legend key no longer shows a fixed example as if it were data.
+- The showcase demo app in 5.6.0 and 5.6.1 showed "The app has no process data yet" on five Process Maps and the SLA Difference Map. The demo app in this release draws all of them.
 
 ## Before you upgrade
 
-- Replace the script bundle only if you want the 5.6 script; install the 5.6.1 extension packages. Objects you saved earlier keep working.
+- Only the demo app changes. Download the demo app again. The extension packages and the script bundle work as in 5.6.1.
