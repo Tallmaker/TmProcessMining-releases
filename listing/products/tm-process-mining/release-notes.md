@@ -1,15 +1,16 @@
 ## New
 
-None in this release.
+- Lifecycle and Case Timeline have an Axis title setting. Lifecycle keeps its caption until you change it. Case Timeline draws a caption under the time axis when you enter one.
 
 ## Changed
 
-- Difference Map no longer offers Excel data export. The file held only the values of the comparison field, not the Activities that the map draws.
+None in this release.
 
 ## Fixed
 
-- Process Matrix now has a role and a name when it takes keyboard focus, so a screen reader announces it.
+- Rework Map and Variant Braids keep keyboard focus on the mark after you press Enter.
+- A colour or font name from a theme or a property can no longer carry text that breaks out of the generated style. All nine extensions are covered.
 
 ## Before you upgrade
 
-- Install the 5.6.3 extension packages. Objects you saved earlier keep working. The script bundle and the demo apps work as in 5.6.2.
+- Install the 5.7.0 extension packages. Objects you saved earlier keep working. The script bundle and the demo apps work as in 5.6.3.
